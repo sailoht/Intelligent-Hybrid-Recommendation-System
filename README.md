@@ -31,22 +31,6 @@ Intelligent-Hybrid-Recommendation-System/
 
 ---
 
-## Environment Configuration
-
-All dataset discovery is managed through:
-
-```python
-env.py
-```
-
-The application imports dataset locations directly from `env.py`.
-
-Example:
-
-```python
-from env import TRAINING_CSV_PATH
-```
-
 ---
 
 ## Dataset Files
