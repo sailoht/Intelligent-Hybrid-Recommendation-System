@@ -59,16 +59,6 @@ The application automatically searches for:
 Cap_Training_Data_2025.csv
 ```
 
-in the following locations:
-
-```text
-Project Folder
-Parent Folder
-Downloads
-Documents
-Desktop
-```
-
 ---
 
 ## Environment Variables (Optional)
@@ -76,13 +66,7 @@ Desktop
 ### Direct CSV Path
 
 ```powershell
-$env:CAR_DATASET_PATH="C:\Datasets\Cap_Training_Data_2025.csv"
-```
-
-### Dataset Directory
-
-```powershell
-$env:CAR_DATASET_DIR="C:\Datasets\12573233-Indian_Car_Market_Capstone_2025_Dataset"
+$env:CAR_DATASET_PATH="C:\...\Cap_Training_Data_2025.csv"
 ```
 
 ---
